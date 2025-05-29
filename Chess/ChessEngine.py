@@ -64,7 +64,7 @@ class GameState():
     def squareUnderAttack(self, r, c):
         self.whiteToMove = not self.whiteToMove #switch opponent's turn
         oppMoves = self.getAllPossibleMoves()
-        self.whiteToMove = not self.whiteToMove #switch turns back
+        self.whiteToMove = not self.whiteToMove #switch turns backs
         
     #All moves not considering checks
     
