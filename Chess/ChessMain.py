@@ -11,7 +11,7 @@ def loadImages():
     pieces = ['wp','wR','wN', 'wB', 'wK', 'wQ', 'bp','bR','bN','bB','bK','bQ']
     for piece in pieces:
         images[piece] = p.transform.scale(p.image.load('images/' + piece + '.png'), (sq_size,sq_size) )
-        #images[wp] panggil peon putih
+        #images[wp] panggil pion putih
         
 def main():
     p.init()
